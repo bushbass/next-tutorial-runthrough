@@ -1,9 +1,10 @@
+import Image from 'next/image'
 function DrinkStatic({ data }) {
   return (
     <div>
       {console.log(data)}
       <h1>getStaticProps</h1>
-      <img src={data.message} />
+      <Image src={data.message} />
     </div>
   )
 }
