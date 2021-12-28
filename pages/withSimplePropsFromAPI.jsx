@@ -8,7 +8,7 @@ function WithSimplePropsFromAPI({ data }) {
       <p>the info in the list below is from an outside source</p>
       <ul>
         {data.map((entry) => (
-          <User entry={entry} />
+          <User key={entry.id} entry={entry} />
         ))}
       </ul>
 
