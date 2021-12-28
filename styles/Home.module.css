@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 30vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -12,11 +12,19 @@
   align-items: center;
 }
 
+.header {
+  /* display: flex; */
+  flex: 1;
+  padding: 2rem 0;
+  border-bottom: 5px solid green;
+  justify-content: center;
+  align-items: center;
+}
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 5px solid blue;
   justify-content: center;
   align-items: center;
 }

@@ -9,6 +9,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(138, 112, 0);
 }
 
 * {
