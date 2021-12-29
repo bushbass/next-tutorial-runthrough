@@ -2,7 +2,7 @@ import Image from 'next/image'
 function DogServer({ data }) {
   return (
     <div>
-      <h2>Dog image with SSR</h2>
+      <h2>Dog image with getServerProps</h2>
       <Image height='200' width='200' alt='random dog' src={data.message} />
     </div>
   )
