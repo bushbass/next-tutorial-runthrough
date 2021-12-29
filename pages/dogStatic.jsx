@@ -1,5 +1,5 @@
 import Image from 'next/image'
-function DrinkStatic({ data }) {
+function DogStatic({ data }) {
   return (
     <div>
       {console.log(data)}
@@ -18,4 +18,4 @@ export async function getStaticProps() {
   }
 }
 
-export default DrinkStatic
+export default DogStatic

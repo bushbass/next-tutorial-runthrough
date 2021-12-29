@@ -31,6 +31,16 @@ function Header() {
             <a>list all users</a>
           </Link>
         </li>
+        <li>
+          <Link href='/dogStatic'>
+            <a>dog static</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/users'>
+            <a>dog server</a>
+          </Link>
+        </li>
       </ul>
     </header>
   )
