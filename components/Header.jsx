@@ -37,7 +37,7 @@ function Header() {
           </Link>
         </li>
         <li>
-          <Link href='/users'>
+          <Link href='/dogServer'>
             <a>dog server</a>
           </Link>
         </li>

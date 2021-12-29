@@ -2,8 +2,7 @@ import Image from 'next/image'
 function DogStatic({ data }) {
   return (
     <div>
-      {console.log(data)}
-      <h1>getStaticProps</h1>
+      <h1>Dog image with getStaticProps</h1>
       <Image width='200' height='200' alt='random dog' src={data.message} />
     </div>
   )
