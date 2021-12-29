@@ -4,7 +4,7 @@ function DrinkStatic({ data }) {
     <div>
       {console.log(data)}
       <h1>getStaticProps</h1>
-      <Image alt='random dog' src={data.message} />
+      <Image width='200' height='200' alt='random dog' src={data.message} />
     </div>
   )
 }

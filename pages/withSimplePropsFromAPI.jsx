@@ -21,7 +21,7 @@ export async function getStaticProps() {
   const userData = await fetch(
     'https://jsonplaceholder.typicode.com/users'
   ).then((response) => response.json())
-  userData.length = 10
+
   return {
     props: { data: userData },
   }
