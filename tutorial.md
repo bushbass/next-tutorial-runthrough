@@ -33,4 +33,8 @@
 - also call getStaticProps to get the individual entry from the API to use that data on the individual pages
 - in the User component, use link to go to each page from basic listing
 - up next SSR
--
+- but first let's deploy to vercel because we'll need a live version to show SSR working in our example
+- push to github, deploy to vercel
+- make page for regular getStaticProps and a basically duplicat for getServerProps
+- in static, do fetch before returning props, send it to props, use props in page console.log then use that data in the page
+- now in dogServer do the same thing but with server props
